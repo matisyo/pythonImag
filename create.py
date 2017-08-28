@@ -140,7 +140,7 @@ def apply_to_image(file_name, step_size,file_promedios,foto_path,times):
 
 #Empiezo un contador de tiempo para ver cuanto tarda	
 start = time.time()
-print("Espere mientras produsco la imagen")		
+print("Espere mientras produzco la imagen")		
 ###############
 ###Como usar###
 ###############
