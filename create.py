@@ -170,8 +170,6 @@ CALIDAD = 5
 #Para tener el archivo ".txt" con los datos
 #apply_to_image(FOTO_ORIGINAL,TAMANIO_EN_PIXELES_SUB_IMAGENES,FILE_PROMEDIOS,FOTO_PATH,TIMES).show()
 
-
-#FOTO_ORIGINAL = ["bumeran.png", "konzerta.png", "laborum.png","logo_acaula.png","logo_navent_1.png" ,"logo_navent_2.png","logo_navent_3.png" ,"logo_navent_4.png", "logo_naventmedia.png", "Logo_naventVioleta.png","Logo_naventVioletaFdo.png","logo_zonajobs.png","logo_ubit.png" ,"logo_zonaprop.png","naventlogo2.jpg","multitrabajos.png"]
 for ele in FOTO_ORIGINAL:
 	apply_to_image(ele,TAMANIO_EN_PIXELES_SUB_IMAGENES,FILE_PROMEDIOS,FOTO_PATH,TIMES)
 	print(ele)
